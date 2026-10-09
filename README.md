@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HomeEase
 
 A home services marketplace: browse by category or by room, add services to a cart, pick an address, slot and professional, and book. Built with React (Vite) and an Express + MongoDB API skeleton.
@@ -73,3 +74,6 @@ server/src/
 - Replace the per-slot capacity in `availability` with real professional schedules.
 - Add a payment gateway for "Pay now" and webhook-driven booking status updates.
 - Swap the illustrated thumbnails (`Thumb`) for real photography once you have licensed images.
+=======
+# HOMEEASE07
+>>>>>>> 89d2050bd70a1d7cdd7569484f78d40654cdc826
