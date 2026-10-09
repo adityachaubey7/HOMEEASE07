@@ -1,8 +1,7 @@
 import jwt from 'jsonwebtoken';
 import { Booking, Category, Professional, Review, Service, User } from '../models/index.js';
 import { HttpError } from '../middleware/auth.js';
-import { cities, coupons, faqs, rooms, timeSlots } from '../../../shared/catalog.js';
-
+import { cities, coupons, faqs, rooms, timeSlots } from '../../shared/catalog.js';
 /* ---------- Catalog ---------- */
 export const listCities = async (_req, res) => res.json(cities);
 export const listRooms = async (_req, res) => res.json(rooms);
